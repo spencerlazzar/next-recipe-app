@@ -28,7 +28,7 @@ export default function Home({ recipes }) {
         <li key={recipe.id} className="recipe-card">
           <Link href="/">
             <a>
-              <img src={urlFor(recipe.mainImage).url()}/>
+              <img src={urlFor(recipe.mainImage).url()} />
               <span>{recipe.name}</span>
             </a>
           </Link>
